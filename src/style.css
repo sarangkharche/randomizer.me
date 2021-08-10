@@ -7,7 +7,7 @@
 body {
     /* background-color: #56c35a; */
     background: linear-gradient(to bottom, #56c35a 0, #64609c 100%);
-    font-family: 'Muli', serif;
+    font-family: 'Muli', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
