@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
+
 * {
     box-sizing: border-box;
 }
@@ -7,7 +8,7 @@
 body {
     /* background-color: #56c35a; */
     background: linear-gradient(to bottom, #56c35a 0, #64609c 100%);
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,10 +22,20 @@ h3 {
     color: #ffff;
     margin: 10px 0 20px;
     text-align: center;
+    font-size:large;
+}
+
+h1 {
+    color: #ffff;
+    margin: 10px 0 20px;
+    text-align: center; 
+    font-family: 'Nunito', sans-serif;
+    
 }
 
 .container {
     width: 500px;
+    
 }
 
 textarea {
@@ -47,6 +58,8 @@ textarea {
     font-size: 14px;
     display: inline-block;
 }
+
+/* highlights the tags and add animation to it  */
 
 .tag.highlight {
     background-color: #56c35a;
@@ -81,3 +94,13 @@ textarea {
         transform: rotate(360deg);
     }
 }
+
+/* #mainLottie {
+
+    position:absolute; 
+    left: 45%; 
+    top: 25%; 
+    width: 100px; 
+    height: 100px;
+
+} */
