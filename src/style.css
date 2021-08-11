@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 * {
     box-sizing: border-box;
@@ -7,7 +7,7 @@
 body {
     /* background-color: #56c35a; */
     background: linear-gradient(to bottom, #56c35a 0, #64609c 100%);
-    font-family: '', sans-serif;
+    font-family: 'Nunito', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
