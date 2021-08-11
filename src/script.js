@@ -18,6 +18,7 @@ textarea.addEventListener("keyup", (e) => {
   }
 });
 
+
 // create tags
 function createTags(input) {
   const tags = input
@@ -36,6 +37,7 @@ function createTags(input) {
   });
 }
 
+// select random value
 function randomSelect() {
   const times = 30;
   const interval = setInterval(() => {
@@ -57,15 +59,18 @@ function randomSelect() {
   }, times * 100);
 }
 
+
 function pickRandomTag() {
   const tags = document.querySelectorAll(".tag");
   return tags[Math.floor(Math.random() * tags.length)];
 }
 
+// highlight the tags
 function highlightTag(tag) {
   tag.classList.add("highlight");
 }
 
+// unhighlight the tags duhh
 function unhighlightTag(tag) {
   tag.classList.remove("highlight");
 }
