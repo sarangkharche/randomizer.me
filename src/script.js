@@ -74,3 +74,5 @@ function highlightTag(tag) {
 function unhighlightTag(tag) {
   tag.classList.remove("highlight");
 }
+
+
