@@ -117,3 +117,12 @@ textarea {
     text-align: right;
     padding: 0 10px;
  }
+
+ #footer-menu {
+    display: block;
+    margin-top: 105px;
+    }
+    #footer-menu ul li {
+    display: inline-block;
+    margin-right: 140px;
+    }
